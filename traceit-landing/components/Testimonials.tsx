@@ -1,5 +1,5 @@
-import TwitterTestimonialCards from "../components/ui/twitter-testimonial-cards";
+import Testimonials from "../../components/ui/testimonials-columns-client";
 
-export default function Testimonials() {
-  return <TwitterTestimonialCards />;
+export default function TestimonialsSection() {
+  return <Testimonials />;
 }

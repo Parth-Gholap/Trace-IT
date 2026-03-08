@@ -21,14 +21,14 @@ const features = [
     delay: 0.3
   },
   {
-    title: "Secure Messaging",
-    description: "Connect safely with other users through our encrypted messaging system.",
+    title: "Secure Platform",
+    description: "Your data and privacy are protected with enterprise-grade security.",
     icon: <Shield className="w-8 h-8 text-white" />,
     delay: 0.4
   },
   {
-    title: "Real-time Updates",
-    description: "Get instant notifications when someone posts about your lost item.",
+    title: "Real-time Notifications",
+    description: "Get instant alerts when items matching your description are found.",
     icon: <Zap className="w-8 h-8 text-white" />,
     delay: 0.5
   },
@@ -37,25 +37,29 @@ const features = [
     description: "Available across all campus locations and facilities.",
     icon: <Globe className="w-8 h-8 text-white" />,
     delay: 0.6
-  }
+  },
+  {
+    title: "Privacy First",
+    description: "Your information is kept private and secure with our privacy-first approach.",
+    icon: <Lock className="w-8 h-8 text-white" />,
+    delay: 0.7
+  },
 ];
 
 export default function Features() {
   return (
     <section id="features" className="py-20 bg-black">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
-              Powerful Features
-            </span>
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            Powerful Features
           </h2>
-          <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-            Everything you need to manage lost and found items efficiently and securely.
+          <p className="text-lg text-white/80 max-w-2xl mx-auto">
+            Everything you need to manage lost and found items efficiently.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {features.map((feature, index) => (
             <FeatureCard
               key={index}
