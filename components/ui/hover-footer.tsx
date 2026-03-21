@@ -167,7 +167,7 @@ const HoverFooter = ({ className }: HoverFooterProps) => {
     {
       title: "Helpful Links",
       links: [
-        { label: "FAQs", href: "/faqs" },
+        { label: "FAQs", href: "/faq" },
         { label: "Support", href: "/support" },
         {
           label: "Live Chat",

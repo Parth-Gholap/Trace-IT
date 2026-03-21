@@ -10,7 +10,7 @@ import FAQ from "../traceit-landing/components/FAQ";
 import UseCases from "../traceit-landing/components/UseCases";
 import FinalCTA from "../traceit-landing/components/FinalCTA";
 import ContactSection from "../traceit-landing/components/ContactSection";
-import Footer from "../traceit-landing/components/Footer";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
