@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown, Search } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const Navbar = () => {
@@ -46,8 +46,8 @@ const Navbar = () => {
 
   const navLinks = [
     { id: 'home', label: 'Home' },
-    { id: 'features', label: 'Features' },
     { id: 'how-it-works', label: 'How It Works' },
+     { id: 'features', label: 'Features' },
     { id: 'pricing', label: 'Pricing' },
     { id: 'contact', label: 'Contact' },
   ];
@@ -66,7 +66,7 @@ const Navbar = () => {
           {/* Logo and Brand */}
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-r from-cyan-400 to-purple-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">T</span>
+              <Search className="w-5 h-5 text-white" />
             </div>
             <span className="text-white font-semibold text-lg">TraceIT</span>
           </div>

@@ -2,7 +2,7 @@ export const footer = {
   brand: {
     name: "TraceIT",
     description: "TraceIT is a community-powered lost and found platform that helps people reconnect with their belongings.",
-    logo: "❤️"
+    logo: "🔍"
   },
   contact: {
     email: "hello@traceit.com",
