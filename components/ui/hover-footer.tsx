@@ -197,11 +197,8 @@ const HoverFooter = ({ className }: HoverFooterProps) => {
   ];
 
   const socialLinks = [
-    { icon: <Facebook size={20} />, label: "Facebook", href: "#" },
-    { icon: <Instagram size={20} />, label: "Instagram", href: "#" },
+    { icon: <Instagram size={20} />, label: "Instagram", href: "https://www.instagram.com/parth_gholap_17?igsh=NWd1M2EzdW0xZ3Nn" },
     { icon: <Twitter size={20} />, label: "Twitter", href: "#" },
-    { icon: <Dribbble size={20} />, label: "Dribbble", href: "#" },
-    { icon: <Globe size={20} />, label: "Globe", href: "#" },
   ];
 
   return (

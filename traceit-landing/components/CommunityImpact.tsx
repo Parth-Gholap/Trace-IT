@@ -13,15 +13,15 @@ export default function CommunityImpact() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+          {/* <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
             <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
               Community Impact
             </span>
-          </h2>
+          </h2> */}
           
-          <p className="text-lg text-gray-300 mb-12 max-w-3xl mx-auto">
+          {/* <p className="text-lg text-gray-300 mb-12 max-w-3xl mx-auto">
             See how TraceIT is making a difference in communities worldwide with real-time statistics and success metrics.
-          </p>
+          </p> */}
         </motion.div>
 
         <StatisticsCard />

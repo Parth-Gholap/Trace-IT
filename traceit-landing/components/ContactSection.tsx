@@ -39,15 +39,15 @@ export default function ContactSection() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-gray-400" />
-                  <span className="text-gray-300">+1 (555) 123-4567</span>
+                  <span className="text-gray-300">+91 7058687057</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-gray-400" />
-                  <span className="text-gray-300">hello@traceit.com</span>
+                  <span className="text-gray-300">parthgholap18@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-gray-400" />
-                  <span className="text-gray-300">Campus Locations</span>
+                  <span className="text-gray-300"><a href="https://vitbhopal.ac.in">VIT Bhopal University</a></span>
                 </div>
               </div>
             </motion.div>
